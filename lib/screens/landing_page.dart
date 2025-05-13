@@ -159,7 +159,7 @@ class _LandingSlide extends StatelessWidget {
             width: 120,
             height: 120,
             decoration: BoxDecoration(
-              color: AppColors.primaryGreen,
+              color: AppColors.primaryGreen.withOpacity(0.2),
               shape: BoxShape.circle,
             ),
             child: Icon(
